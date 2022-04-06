@@ -1,0 +1,8 @@
+:root {
+  --fancy-gradient: linear-gradient(to bottom, #884ced, #ec1cce);
+}
+
+body {
+  background: var(--fancy-gradient);
+  height: 1800px;
+}
