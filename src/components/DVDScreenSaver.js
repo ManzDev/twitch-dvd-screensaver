@@ -37,6 +37,8 @@ export const startIdleScreenSaver = () => {
     dvdScreenSaver.isConnected && dvdScreenSaver.destroy();
     startIdle();
   };
+
+  startIdle();
 };
 
 class DVDScreenSaver extends HTMLElement {
